@@ -59,11 +59,11 @@ jobs:
             runtime: -x64
             codecov: false
           - os: windows-latest
-            framework: net472
+            framework: net481
             runtime: -x64
             codecov: false
           - os: windows-latest
-            framework: net472
+            framework: net481
             runtime: -x86
             codecov: false
         exclude:
@@ -122,7 +122,7 @@ jobs:
             8.0.x
             7.0.x
             6.0.x
-            4.7.2
+            4.8.1
 
       - name: DotNet Build
         if: ${{ matrix.options.sdk-preview != true }}
