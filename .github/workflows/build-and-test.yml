@@ -122,6 +122,7 @@ jobs:
             8.0.x
             7.0.x
             6.0.x
+            4.7.x
 
       - name: DotNet Build
         if: ${{ matrix.options.sdk-preview != true }}
